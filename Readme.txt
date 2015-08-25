@@ -1,0 +1,1 @@
+This repo contains Eclipse projects that serve as work samples.
