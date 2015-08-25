@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<!-- MainActiviy -->
+    <string name="app_name">MyTicTacToe</string>
+    <string name="main_title_text">Tic Tac Toe!</string>
+    <string name="action_new_game">New Game</string>
+    <string name="action_scores">Scores</string>
+    
+    <string name="status_player_1_wins">Player 1 Wins!</string>
+    <string name="status_player_2_wins">Player 2 Wins!</string>
+    <string name="status_draw">Draw!</string>
+    <string name="status_player_1s_turn">Player 1\'s Turn</string>
+    <string name="status_player_2s_turn">Player 2\'s Turn</string>
+    
+    
+    <!-- NewGameDialogFragment -->
+    <string name="new_game_title_text">Who Plays X?</string>
+    <string name="button_cancel">Cancel</string>
+
+    <!-- ScoresDialogFragment -->
+    <string name="scores_title_text">Scores</string>
+    <string name="button_close">Close</string>
+    <string name="button_reset_scores">Reset Scores</string>
+    
+    
+</resources>

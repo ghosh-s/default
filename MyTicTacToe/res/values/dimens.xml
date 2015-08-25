@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    
+    <dimen name="activity_horizontal_margin_portrait">16dp</dimen>    
+    <dimen name="activity_vertical_margin_portrait">16dp</dimen>
+    <dimen name="title_text_font_size_portrait">32dp</dimen>    
+    <dimen name="players_text_font_size_portrait">24dp</dimen>    
+    <dimen name="status_text_font_size_portrait">20dp</dimen>    
+    <dimen name="tic_tac_button_size_portrait">80dp</dimen>
+    
+    <dimen name="activity_horizontal_margin_landscape">8dp</dimen>
+    <dimen name="activity_vertical_margin_landscape">8dp</dimen>
+    <dimen name="title_text_font_size_landscape">24dp</dimen>
+    <dimen name="players_text_font_size_landscape">18dp</dimen>   
+    <dimen name="status_text_font_size_landscape">16dp</dimen>
+    <dimen name="tic_tac_button_size_landscape">40dp</dimen>
+    
+</resources>

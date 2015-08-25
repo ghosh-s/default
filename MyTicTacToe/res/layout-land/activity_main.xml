@@ -1,0 +1,148 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin_landscape"
+    android:paddingLeft="@dimen/activity_horizontal_margin_landscape"
+    android:paddingRight="@dimen/activity_horizontal_margin_landscape"
+    android:paddingTop="@dimen/activity_vertical_margin_landscape"
+    tools:context="com.ghosh.mytictactoe.MainActivity" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_title_text"
+        android:gravity="center"
+        android:textSize="@dimen/title_text_font_size_landscape" />
+
+    <Space
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/activity_vertical_margin_landscape" />
+
+    <TextView
+        android:id="@+id/playersText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:gravity="center"
+        android:textSize="@dimen/players_text_font_size_landscape" />
+
+    <Space
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/activity_vertical_margin_landscape" />
+    
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+            
+            <ImageButton android:id="@+id/button0" 
+				android:layout_width="@dimen/tic_tac_button_size_landscape" 
+				android:layout_height="@dimen/tic_tac_button_size_landscape" 
+				android:scaleType="fitXY"
+				android:src="@drawable/button_blank"
+				android:tag="0" 
+			/>
+            
+            <ImageButton android:id="@+id/button1" 
+				android:layout_width="@dimen/tic_tac_button_size_landscape" 
+				android:layout_height="@dimen/tic_tac_button_size_landscape" 
+				android:scaleType="fitXY"
+				android:src="@drawable/button_blank"
+				android:tag="1" 
+			/>
+            
+            <ImageButton android:id="@+id/button2" 
+				android:layout_width="@dimen/tic_tac_button_size_landscape" 
+				android:layout_height="@dimen/tic_tac_button_size_landscape" 
+				android:scaleType="fitXY"
+				android:src="@drawable/button_blank"
+				android:tag="2" 
+			/>
+            
+            </TableRow>
+            
+            <TableRow
+            	android:id="@+id/tableRow2"
+            	android:layout_width="match_parent"
+            	android:layout_height="wrap_content"
+            	android:gravity="center" >
+            
+	            <ImageButton android:id="@+id/button3" 
+					android:layout_width="@dimen/tic_tac_button_size_landscape" 
+					android:layout_height="@dimen/tic_tac_button_size_landscape" 
+					android:scaleType="fitXY"
+					android:src="@drawable/button_blank"
+					android:tag="3" 
+				/>
+	            
+	            <ImageButton android:id="@+id/button4" 
+					android:layout_width="@dimen/tic_tac_button_size_landscape" 
+					android:layout_height="@dimen/tic_tac_button_size_landscape" 
+					android:scaleType="fitXY"
+					android:src="@drawable/button_blank"
+					android:tag="4" 
+				/>
+	            
+	            <ImageButton android:id="@+id/button5" 
+					android:layout_width="@dimen/tic_tac_button_size_landscape" 
+					android:layout_height="@dimen/tic_tac_button_size_landscape" 
+					android:scaleType="fitXY"
+					android:src="@drawable/button_blank"
+					android:tag="5" 
+				/>
+            
+            </TableRow>
+           	
+           	<TableRow
+            	android:id="@+id/tableRow3"
+            	android:layout_width="match_parent"
+            	android:layout_height="wrap_content"
+            	android:gravity="center" >
+            
+	            <ImageButton android:id="@+id/button6" 
+					android:layout_width="@dimen/tic_tac_button_size_landscape" 
+					android:layout_height="@dimen/tic_tac_button_size_landscape" 
+					android:scaleType="fitXY"
+					android:src="@drawable/button_blank"
+					android:tag="6" 
+				/>
+	            
+	            <ImageButton android:id="@+id/button7" 
+					android:layout_width="@dimen/tic_tac_button_size_landscape" 
+					android:layout_height="@dimen/tic_tac_button_size_landscape" 
+					android:scaleType="fitXY"
+					android:src="@drawable/button_blank"
+					android:tag="7" 
+				/>
+	            
+	            <ImageButton android:id="@+id/button8" 
+					android:layout_width="@dimen/tic_tac_button_size_landscape" 
+					android:layout_height="@dimen/tic_tac_button_size_landscape" 
+					android:scaleType="fitXY"
+					android:src="@drawable/button_blank"
+					android:tag="8" 
+				/>
+            
+            </TableRow>
+    </TableLayout>
+    
+    <Space
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/activity_vertical_margin_landscape" />
+        
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:gravity="center"
+        android:textSize="@dimen/status_text_font_size_landscape"  />
+        
+</LinearLayout>
